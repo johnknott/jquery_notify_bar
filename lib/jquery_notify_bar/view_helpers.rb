@@ -19,7 +19,7 @@ module JqueryNotifyBar
                 animationSpeed: '#{opts[:animation_speed]}',
                 cls: '#{opts[:cls]}'
               });
-            });)
+            });).html_safe
           end
         end
       end
